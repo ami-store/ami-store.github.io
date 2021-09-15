@@ -1,0 +1,169 @@
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+ font-family: 'Besley', serif;
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    font-family: 'Besley', serif;
+    font-size: 25px;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Besley', serif;
+}
+h1{
+  font-size: 150px;
+  font-weight: normal;
+  margin: 0;
+}
+h2{
+  font-size: 100px;
+      color: #F6B6E5;
+      margin-bottom: 0;
+}
+.contact h2{
+  margin-bottom: 0;
+}
+.contact-p{
+  font-size: 20px;
+}
+.works h2{
+  color: #00C2CB;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.works-image{
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  min height: 0px;
+}
+.extra-gutters{
+  padding: 0px 60px;
+}
+.works h4{
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+}
+.works h4.right-aligned{
+  right: 0px;
+}
+.myteam h2{
+  color: #004AAD;
+  text-align: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.myteam h3{
+    margin: 0 0 70px 0;
+    line-height: 100%
+}
+.img-margin{
+  margin-bottom: 20px;
+}
+.p-margin{
+  font-size: 20px;
+}
+.contact h2{
+  color: #F6B6E5;
+}
+h3{
+  font-size: 45px;
+}
+h4 {
+    font-size: 32px;
+    color: #fff;
+    background-color: #004AAD;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+}
+a{
+  letter-spacing: 3px;
+  color: #53C3C4;
+  font-size:18;
+  text-decoration: none;
+  font-weight: bold;
+}
+p {
+    line-height: 145%;
+    font-size: 20px
+}
+ul {
+  font-size: 20px;
+}
+.navigation{
+  text-align: center;
+}
+.navigation li{
+  display: inline-block;
+  margin: 0px 15px;
+  color: #F5979C;;
+}
+.navigation li a{
+  color: #F5979C;;
+}
+.left-col, .right-col{
+  color: #FFF;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-col{
+  background-color: #004AAD;
+  color: #fff;
+  text-align: center;
+}
+.right-col{
+  background-color: #00C2CB;
+}
+.top-container{
+  width: 300px;
+  margin: 0px auto;
+}
+.scroll{
+color: #2864B1;
+text-align: center;
+font-size: 25px;
+margin: 10px;
+}
+img {
+    max-width: 100%;
+}
+.img-float{
+  float: left;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+footer{
+    background-color: #F5979C;
+    background-image: url(../img/socialmedia.svg);
+    min-height: 220px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 60px;
+}
+
+.social-icon{
+  height: 60px;
+  margin: 10px 20px;
+}
+.social-icon-container{
+  text-align: center;
+}
